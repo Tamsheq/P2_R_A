@@ -1,0 +1,77 @@
+/* Eléments principaux de la page */
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#block_page {
+    width: 900px;
+    margin: auto;
+}
+
+/* Header */
+
+#headerImage {
+    text-align: left;
+}
+
+#headerContainer a {
+    text-decoration: none;
+    color: blue;
+    display: block;
+    padding: 15px;
+    margin: 0;
+    color: grey;
+}
+
+#headerContainer a.active {
+    border-top: 3px #0065FC solid;
+    color: #0065FC;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Search, SearchBar, SearchIcon, SearchButton */
+
+
+.search {
+    display: block;
+}
+
+.searchBar {
+    display: inline-flex;
+    max-width: 100%;
+}
+
+.searchIcon {
+    background-color: #F2F2F2;
+    padding: 10px 10px;
+    border-radius: 20px 0 0 20px;
+}
+
+input {
+    border: 1px #EEF1F3 solid;
+}
+
+.searchButton {
+    text-align: center;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0 20px 20px 0;
+    border: none;
+    font-weight: bold;
+    padding: 0 1.5rem;
+    width: 10rem;
+    font-size: 1rem;
+}
