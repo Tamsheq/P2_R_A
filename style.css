@@ -5,7 +5,7 @@ body {
 }
 
 #block_page {
-    width: 900px;
+    width: 1330px;
     margin: auto;
 }
 
@@ -13,15 +13,20 @@ body {
 
 #headerImage {
     text-align: left;
+    padding-top: 25px;
 }
 
 #headerContainer a {
     text-decoration: none;
     color: blue;
     display: block;
-    padding: 15px;
+    padding: 20px;
     margin: 0;
     color: grey;
+}
+
+#headerContainer a.register {
+    color: #0065FC;
 }
 
 #headerContainer a.active {
@@ -42,7 +47,7 @@ header {
 }
 
 
-/* Search, SearchBar, SearchIcon, SearchButton */
+/* Search, SearchBar, SearchIcon, SearchButton, SearchFilters */
 
 
 .search {
@@ -62,6 +67,10 @@ header {
 
 input {
     border: 1px #EEF1F3 solid;
+    padding-left: 10px;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 
 .searchButton {
@@ -75,3 +84,80 @@ input {
     width: 10rem;
     font-size: 1rem;
 }
+
+.searchTitles {
+    margin: 0 24px 16px 0;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*          Filters             */
+
+
+.filters {
+    display: flex;
+    margin-top: 20px;
+    margin: 20px 0 0 0;
+}
+
+.fourFilters {
+    display: flex;
+    cursor: pointer;
+    font-weight: bold;
+    align-items: center;
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+    border: 2px #D0D9E1 solid;
+    border-radius: 35px;
+}
+
+.fourFiltersIcon {
+    display: flex;
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: -2px;
+    min-height: 3.5rem;
+    min-width: 3.5rem;
+    height: 3rem;
+    width: 3rem;
+    color: blue;
+}
+
+.fourFiltersFourTitles {
+    margin: 15px;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    margin: 25px 0 25px 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.informationBubble {
+    display: flex;
+    border: 1px #D0D9E1 solid;
+    border-radius: 100%;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    min-height: 30px;
+    min-width: 30px;
+    margin-right: 15px;
+    justify-content: center;
+}
+
+.informationIcon {
+    color: blue;
+}
+
+/* Housing , Location , Price , Notes */
+
