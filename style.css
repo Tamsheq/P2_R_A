@@ -369,3 +369,34 @@ a {
     grid-column: 4/5;
     grid-row: 4/7;
 }
+
+/*      FOTTER      */
+
+.footer {
+    background-color: #F2F2F2;
+    width: 100%;
+}
+
+.footerThreeColumn {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    width: 1440px;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.footerThreeColumnTitle {
+    margin: 16px;
+    
+}
+
+.footerThreeColumnContainer {
+    width: 30%;
+    padding: 23px 23px;
+}
+
+.footerColumnLink {
+    display: block;
+    margin: 16px;
+}
