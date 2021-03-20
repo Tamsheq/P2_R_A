@@ -1,4 +1,19 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
+
+	#block_page	{
+		width: 100%;
+	}
+
+	.header	{
+		display: flex;
+    	flex-direction: column;
+    }
+
+    .register	{
+    	display: flex;
+    	align-self: flex-end;
+    	order: 1;
+    }
 
 
 
@@ -13,12 +28,4 @@
 
 
 
-
-
-
-
-
-
-
-	
 }
