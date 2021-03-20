@@ -127,10 +127,8 @@ h2 {
     align-items: center;
     justify-content: center;
     margin: -2px;
-    min-height: 3.5rem;
-    min-width: 3.5rem;
-    height: 3rem;
-    width: 3rem;
+    height: 50px;
+    width: 50px;
     color: blue;
 }
 
