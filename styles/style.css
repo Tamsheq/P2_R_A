@@ -16,16 +16,15 @@ body {
     padding-top: 25px;
 }
 
-#headerContainer a {
+#headerContainer a, .register {
     text-decoration: none;
-    color: blue;
     display: block;
     padding: 20px;
     margin: 0;
     color: grey;
 }
 
-#headerContainer a.register {
+.register {
     color: #0065FC;
 }
 
@@ -41,13 +40,18 @@ ul {
     display: flex;
 }
 
-header {
+.header {
     display: flex;
     justify-content: space-between;
+
 }
 
 article {
     display: block;
+}
+
+#headerContainer    {
+    display: flex;
 }
 
 /* Search, SearchBar, SearchIcon, SearchButton, SearchFilters */
@@ -88,6 +92,10 @@ input {
     font-size: 1rem;
 }
 
+.searchButtonIcon   {
+    display: none;
+}
+
 .searchTitles {
     margin: 0 24px 16px 0;
     display: flex;
@@ -105,10 +113,9 @@ h2 {
 .filters {
     display: flex;
     margin-top: 20px;
-    margin: 20px 0 0 0;
 }
 
-.fourFilters {
+.filter {
     display: flex;
     cursor: pointer;
     font-weight: bold;
@@ -120,19 +127,19 @@ h2 {
     border-radius: 35px;
 }
 
-.fourFiltersIcon {
+.filterIcon{
     display: flex;
     background-color: #DEEBFF;
     border-radius: 100%;
     align-items: center;
     justify-content: center;
-    margin: -2px;
-    height: 50px;
-    width: 50px;
+    margin: -2px 0 -2px -2px;
+    height: 54px;
+    width: 54px;
     color: blue;
 }
 
-.fourFiltersFourTitles {
+.filterTitle {
     margin: 15px;
 }
 
@@ -213,6 +220,9 @@ h2 {
 
 .housingScreenMainNotes {
     margin: 4px 12px 0 12px;
+    width: 100%;
+    align-self: flex-end;
+
 }
 
 .housingScreenMainNotesIcon[data-active=false] {
@@ -229,6 +239,7 @@ figcaption {
 
 .housingScreenCardTitle {
     margin: 4px 12px 0 12px;
+    width: 100%;
 }
 
 a {
@@ -238,6 +249,7 @@ a {
 
 .housingPriceDescription {
     margin: 4px 12px 0 12px;
+    width: 100%;
 }
 
 
@@ -271,11 +283,9 @@ a {
 .housingPopularCard {
     display: flex;
     height: 100%;
-    overflow: auto;
-    align-items: stretch;
 }
 
-.housingPopularCardImg {
+.housingPopularCardImgWrapper {
     position: relative;
     min-height: 100%;
     width: 33%;
@@ -283,7 +293,7 @@ a {
     max-width: 33%;
 }
 
-.housingPopularCardImgImage {
+.housingPopularCardImg {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -293,11 +303,8 @@ a {
 
 .housingPopularContent {
     display: flex;
-    flex-direction: column;
-}
-
-.housingPopularEspace {
-    flex: 1;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 /* Activity at Marseille */
@@ -327,12 +334,12 @@ a {
     grid-column: 1/2;
 }
 
-.activityScreenImg {
+.activityScreenImgWrapper {
     position: relative;
     flex: 1;
 }
 
-.activityScreenImgImage {
+.activityScreenImg {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -373,9 +380,10 @@ a {
 .footer {
     background-color: #F2F2F2;
     width: 100%;
+
 }
 
-.footerThreeColumn {
+.footerContainer {
     display: flex;
     max-width: 100%;
     margin: auto;
@@ -384,17 +392,17 @@ a {
     padding-left: 20px;
 }
 
-.footerThreeColumnTitle {
+.footerTitle {
     margin: 16px;
     
 }
 
-.footerThreeColumnContainer {
+.footerColumn {
     width: 30%;
     padding: 23px 23px;
 }
 
-.footerColumnLink {
+.footerLink {
     display: block;
     margin: 16px;
 }

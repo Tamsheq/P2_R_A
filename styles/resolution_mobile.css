@@ -1,0 +1,176 @@
+@media screen and (max-width: 600px) {
+
+	#block_page	{
+		width: 100%;
+	}
+
+	.header 	{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#headerContainer {
+		width: 100%;
+	}
+
+	#headerContainer nav	{
+		display: flex;
+		flex-wrap: wrap-reverse;
+		width: 100%;
+	}
+
+	#headerContainer ul	{
+		font-size: 20px;
+		width: 100%;
+	}
+
+	#headerContainer ul li {
+		width: 50%;
+		text-align: center;
+	}
+
+	#headerContainer a.active {
+		border-top: none;
+    	border-bottom-color: #0065FC;
+    	color: #0065FC;
+    }
+
+    #headerContainer ul li a {
+    	border-bottom: 3px #F2F2F2 solid;
+    }
+
+	
+	#headerContainer a.register	{
+		display: flex;
+		position: absolute;
+		color: #0065FC;
+    	top: 0;
+    	height: 79px;
+    	right: 15px;
+    	padding: 0;
+	    align-items: center;
+	}
+
+	.search	{
+		padding: 0 20px;
+	}
+
+	.searchBar	{
+		display: flex;
+    	margin: 0 20px;
+    	padding: 0;
+    	position: relative;
+    }
+
+
+
+
+    #localisation	{
+    	width: calc(100% - 52px);
+    	border-radius: 0 20px 20px 0;
+    }
+
+	.filters	{
+		display: flex;
+		flex-wrap: wrap;
+		padding-left: 20px;
+		width: 350px;
+
+		
+	}
+
+	.filtersTitle {
+		width: 100%;
+		padding: 0;
+	}
+
+	.filter	{
+		display: flex;
+    	cursor: pointer;
+    	font-weight: bold;
+    	align-items: center;
+    	border: 2px #D0D9E1 solid;
+    	border-radius: 30px;
+    	margin: 0 10px 10px 0 ;
+	}
+
+	.searchButton 	{
+		width: 56px;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 20px;
+		position: absolute;
+		top: 0;
+    	right: 0;
+    	height: 56px;
+	}	
+
+	.searchButtonText	{
+		display: none;
+	}
+
+	.searchButtonIcon	{
+		display: block;
+
+	}
+
+	/*	FOOTER 	*/
+
+	.footerColumn {
+		width: 100%;
+		padding: 23px 0;
+	}
+
+	.footerContainer {
+		display: flex;
+		flex-direction: column;
+	}
+
+	/*	HOUSING , HOUSING POPULAR */
+
+	.housing {
+		margin: 0;
+	}
+
+	.housingPopular {
+		border-radius: 0;
+		grid-template-rows: auto repeat(3, 144px);
+	}
+
+	.housingMain {
+		grid-template-columns: 1fr;
+		background-color: white;
+	}
+
+	/*	ACTIVITY AT MARSEILLE */
+
+	
+	.activity {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.activityScreen {
+		width: 100%;
+		margin-bottom: 20px;
+		box-shadow: 0 0 10px #0000002e;
+	}
+
+	.activityScreenImgWrapper {
+		height: 134px;
+		overflow: hidden;
+		flex: none;
+	}
+
+	.activityScreenImg {
+		height: initial;
+		object-fit: none;
+		position: relative;
+    	top: 50%;
+    	transform: translateY(-50%);
+    }
+	
+
+}
