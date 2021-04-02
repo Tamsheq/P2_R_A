@@ -139,6 +139,14 @@
 		grid-template-rows: auto repeat(3, 144px);
 	}
 
+	.housingPopularCard {
+		padding-right: 10px
+	}
+
+	.housingPopularTitle {
+		padding-top: 0;
+	}
+
 	.housingMain {
 		grid-template-columns: 1fr;
 		background-color: white;

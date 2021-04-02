@@ -269,7 +269,7 @@ a {
 .housingMain, .housingPopular {
     background-color: #F2F2F2;
     border-radius: 24px;
-    padding: 32px;
+    padding: 2rem;
 }
 
 .housingPopular {
@@ -283,6 +283,7 @@ a {
     display: flex;
     margin: 0;
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 
@@ -351,18 +352,6 @@ a {
     width: 100%;
     object-fit: cover;
 }
-
-/*.activityScreenImgWrapper {
-    position: relative;
-    flex: 1;
-    height: 200px;
-    overflow: hidden;
-}
-
-.activityScreenImg {
-    width: initial;
-    height: 100%;
-}*/
 
 .activityScreenTitle {
     margin: 19px 24px;
