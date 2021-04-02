@@ -74,9 +74,9 @@
 		display: flex;
 		flex-wrap: wrap;
 		padding-left: 20px;
-		width: 350px;
+		width: 100%;
+		box-sizing: border-box;
 
-		
 	}
 
 	.filtersTitle {
@@ -166,7 +166,6 @@
 
 	.activityScreenImg {
 		height: initial;
-		object-fit: none;
 		position: relative;
     	top: 50%;
     	transform: translateY(-50%);
