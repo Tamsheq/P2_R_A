@@ -269,7 +269,7 @@ a {
 .housingMain, .housingPopular {
     background-color: #F2F2F2;
     border-radius: 24px;
-    padding: 2rem;
+    padding: 2rem 20px;
 }
 
 .housingPopular {
@@ -290,6 +290,7 @@ a {
 .housingPopularCard {
     display: flex;
     height: 100%;
+    padding-right: 10px;
 }
 
 .housingPopularCardImgWrapper {
