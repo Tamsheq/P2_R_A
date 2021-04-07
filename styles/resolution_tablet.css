@@ -1,67 +1,54 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   
-	#block_page	{
-		width: 100%;
-	}
+  #block_page {
+    width: 100%;
+  }
 
-	.header	{
-    	display: flex;
-    	justify-content: space-between;
-    }
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
 
-    #headerImage	{
-    	padding: 15px 15px;
-    }
+  #headerImage  {
+    padding: 15px 0;
+  }
 
-    .search	{
-    	justify-content: center;
-    	flex-direction: column;
-    	padding: 0 40px;
-    }
+  .search {
+    justify-content: center;
+    flex-direction: column;
+  }
 
-    .searchBar	{
-    	padding: 0 40px;
-    }
+  .filters  {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
 
-    .filtersTitle	{
-    	padding:  0 30px;
-    }
+  .filter {
+    margin: 0 0 10px 35px;
+  }
 
-    .filters	{
-  		width: 100%;
-  		flex-wrap: wrap;
-  	}
-  	
+  .housing  {
+    display: flex;
+    flex-direction: column-reverse;
+    grid-row-gap: 24px;
+    margin-bottom: 24px;
+  }
 
-  	.filter {
-  		margin: 0 30px 10px 35px;
- 	}
+  .housingPopular   {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto repeat(3, 9rem);
+  }
 
- 	.information	{
- 		padding: 0 30px;
- 	}
-
-  	.housing	{
-  		display: flex;
-  		flex-direction: column-reverse;
-  		grid-row-gap: 24px;
-  		margin: 0 30px 24px 30px;
-  	}
-
-  	.housingPopular		{
-  		grid-template-columns: 1fr;
-    	grid-template-rows: auto repeat(3, 9rem);
-  	}
-
-  	.housingMain	{
-  		grid-template-columns: 1fr 1fr;
-  	}
+  .housingMain  {
+    grid-template-columns: 1fr 1fr;
+  }
 
 
-	.activity	{
-		flex-direction: column;
-		flex-wrap: wrap;
-		align-content: space-around;
-  		margin: 64px 30px ;
-  	}
+  .activity {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin: 64px 0;
+  }
 }
